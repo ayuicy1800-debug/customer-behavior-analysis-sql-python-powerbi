@@ -1,104 +1,74 @@
-# 🛍 Customer Purchase Analysis — EDA + SQL + Power BI
+# 🛍️ Customer Behavior Analysis — SQL + Python + Power BI
 
-A complete end-to-end data analysis project exploring customer purchasing behavior using  
-Python, SQL (MySQL) & Power BI. This project is created for portfolio and resume showcase.
+This project analyzes customer shopping behavior using Python for data cleaning, SQL for business insights, and Power BI for dashboard storytelling. It is designed to be a strong portfolio project for data analyst and data science job roles.
 
----
+## 📊 Business Questions Answered using SQL
+1. Which gender generates more revenue?
+2. Do customers using discounts spend more than average?
+3. Top 5 products by customer rating?
+4. Which shipping type results in higher spending?
+5. Who spends more: subscribers or non-subscribers?
+6. Which products have highest discount adoption?
+7. Customer segmentation: new vs returning vs loyal
+8. Top 3 products in each category
+9. Are repeat buyers more likely to be subscribers?
+10. Which age group contributes the highest revenue?
 
-## 📌 Project Objective
-Understand customer spending patterns, product trends, and behaviors to help businesses:
+All SQL queries:  
+sql/retail_analysis_queries.sql
 
-- Increase revenue
-- Improve marketing targeting
-- Optimize product offerings
-- Boost customer retention
+## 🧼 Python Work (Cleaning)
+• Missing value handling  
+• Data type correction  
+• Age group feature  
+• Customer segmentation support  
+Notebook:  
+python/customer_cleaning.ipynb
 
----
+## 📈 Power BI Dashboard
+Shows:
+• Total Revenue & Avg Purchase  
+• Subscribers vs Non-Subscribers Revenue  
+• Revenue by Category  
+• Age Group Insights  
+• Best Products by Rating  
+
+Add screenshot in:
+images/dashboard.png
+
+## 🧰 Tech Stack
+| Tool | Purpose |
+|------|---------|
+| Python | Data Cleaning |
+| MySQL | Analytical Queries |
+| Power BI | Data Visualization |
+| GitHub | Portfolio Hosting |
 
 ## 📂 Project Structure
-📁 Customer_Purchase_Analysis
- ├── 📊 PowerBI_Dashboard (screenshots)
- ├── 🐍 Customer_EDA.ipynb (Python cleaning & analysis)
- ├── 🗄 customer_queries.sql (All SQL queries)
- └── README.md
+customer-behavior-analysis-sql-python-powerbi/
+│
+├── sql/
+│   └── retail_analysis_queries.sql
+│
+├── python/
+│   └── customer_cleaning.ipynb
+│
+├── images/
+│   └── dashboard.png
+│
+└── README.md
 
----
+## 🚀 How to Use
+Clone the repo  
+Run SQL queries in MySQL  
+Open notebook for cleaning  
+Open dashboard in Power BI
 
-## 🧹 Data Cleaning & EDA (Python)
+## 🔮 Future Improvements
+• Customer Lifetime Value (CLV)  
+• Churn prediction model  
+• Real-time sales analysis
 
-Key tasks performed:
-- Removed duplicates and null values
-- Standardized data types & formatting  
-- Created new columns for analysis (age groups, discounts…)
-- Exploratory visualizations for category performance & spending patterns
-
----
-
-## 🧠 SQL Questions Solved
-
-➡ Full SQL queries available in  
-📄 `customer_queries.sql`
-
-Topics covered:
-1. Revenue by gender  
-2. Discount usage vs spend  
-3. Top 5 highest-rated products  
-4. Standard vs Express shipping spend  
-5. Subscriber vs non-subscriber revenue  
-6. Products with highest discount usage  
-7. Customer segmentation (New/Returning/Loyal)  
-8. Top 3 products by category  
-9. Subscriber likelihood among repeat buyers  
-10. Revenue by age group  
-
----
-
-## 📊 Power BI Dashboard Highlights
-
-Insights visualized:
-- Revenue by Age Group & Gender
-- Subscription vs Non-Subscription Spend
-- Top Performing Products
-- Categories Driving Most Sales
-- Discount Usage Impact
-
-📎 *(Screenshots will be added soon)*
-
----
-
-## ✨ Insights Summary (Business Value)
-
-- **Age groups 25–34** contribute maximum revenue → target promotions  
-- **Subscribers spend more** → focus on subscription marketing  
-- **Express shipping users spend higher** → promote fast delivery  
-- **Discount-dependent products** → pricing strategy needed  
-- Loyal buyers are **most profitable** → improve rewards programs  
-
----
-
-## 🚀 Tech Stack Used
-| Purpose | Tools |
-|--------|------|
-| Data Cleaning & EDA | Python (Pandas, Matplotlib) |
-| Database & Queries | MySQL |
-| Visualization | Power BI |
-| Version Control & Portfolio | GitHub |
-
----
-
-## 📌 Future Enhancements
-- Predict customer churn
-- Product recommendation model
-- Real-time automated dashboard
-
----
-
-## 👤 Contact
-📧 Email: *ayuicy1800@gmail.com
-*  
-🔗 LinkedIn: *www.linkedin.com/in/ayush-mane*
-
----
-
-⭐ If you like this project, consider giving it a star!
-
+## 📩 Contact
+Email: YOUR_EMAIL  
+LinkedIn: YOUR_LINKEDIN
