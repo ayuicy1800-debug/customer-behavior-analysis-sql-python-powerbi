@@ -2,13 +2,18 @@
 
 This project analyzes customer shopping behavior using Python for data cleaning, SQL for business insights, and Power BI for dashboard storytelling. It is designed to be a strong portfolio project for data analyst and data science job roles.
 
-## Dataset
-The cleaned dataset is stored in the `data/` folder as:
+## 📁 Dataset
 
+File name:
 customer_shopping_behavior_cleaned.csv
 
-It is loaded in Python using:
-pd.read_csv("data/customer_shopping_behavior_cleaned.csv")
+Location in repo:
+/data/customer_shopping_behavior_cleaned.csv
+
+The dataset is already cleaned and structured for direct analysis in Jupyter Notebook.
+
+It is loaded in the notebook using a relative path:
+../data/customer_shopping_behavior_cleaned.csv
 
 
 ## 📊 Business Questions Answered using SQL
