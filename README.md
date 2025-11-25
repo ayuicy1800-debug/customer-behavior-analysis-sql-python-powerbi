@@ -2,6 +2,15 @@
 
 This project analyzes customer shopping behavior using Python for data cleaning, SQL for business insights, and Power BI for dashboard storytelling. It is designed to be a strong portfolio project for data analyst and data science job roles.
 
+## Dataset
+The cleaned dataset is stored in the `data/` folder as:
+
+customer_shopping_behavior_cleaned.csv
+
+It is loaded in Python using:
+pd.read_csv("data/customer_shopping_behavior_cleaned.csv")
+
+
 ## 📊 Business Questions Answered using SQL
 1. Which gender generates more revenue?
 2. Do customers using discounts spend more than average?
