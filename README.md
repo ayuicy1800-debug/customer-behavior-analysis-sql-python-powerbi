@@ -94,9 +94,9 @@ Insights visualized:
 ---
 
 ## 👤 Contact
-📧 Email: *ayuicy1800@gmail.com\
+📧 Email: *ayuicy1800@gmail.com
 *  
-🔗 LinkedIn: *your LinkedIn here*
+🔗 LinkedIn: *www.linkedin.com/in/ayush-mane*
 
 ---
 
