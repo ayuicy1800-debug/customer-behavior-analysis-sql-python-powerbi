@@ -47,8 +47,15 @@ Shows:
 • Age Group Insights  
 • Best Products by Rating  
 
-Add screenshot in:
-images/dashboard.png
+## 📊 Power BI Dashboard
+
+Screenshots of the interactive dashboard:
+
+![Dashboard](powerbi/screenshots/dashboard_1.png)
+
+Additional views available in:
+`/powerbi/screenshots/`
+
 
 ## 🧰 Tech Stack
 | Tool | Purpose |
