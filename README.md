@@ -51,10 +51,10 @@ Shows:
 
 Screenshots of the interactive dashboard:
 
-![Dashboard](powerbi/screenshots/dashboard_1.png)
+## Power BI Dashboard
 
-Additional views available in:
-`/powerbi/screenshots/`
+![Customer Dashboard](powerbi/screenshots/customer_dashboard.png)
+
 
 
 ## 🧰 Tech Stack
